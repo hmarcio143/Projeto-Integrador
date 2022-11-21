@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+    /* background-color: red; */
+    margin-top: 50px;
+}
+
+.container-produtos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-produto{
+    width: 300px;
+    height: 350px;
+    /* background-color: red; */
+    margin-right: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 0, 0);
+}
+.box-produto a{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 2px;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 2px;
+    
+}
+
+.box-produto p{
+
+    margin: 5px 0;
+    
+}
+
+
+
+.image{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.box-carrinho {
+    background-color: rgba(255, 0, 0, 0.596);
+    border: 1px solid black;
+    width: 300px;
+    margin:auto;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+
+}
+.box-carrinho p{
+    margin: 5px 0;
+   
+}
+
+.msg-container{
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(30, 255, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+.main-index{
+
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container-index{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    
+}
+
+
+.login input{
+
+    display:inline-block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.login input[type="submit"]{
+
+     background: rgba(255, 0, 0, 0.61);
+     color: white;
+    
+}
+
+.login input[type="submit"]:hover{
+
+    background: rgb(9, 248, 29);
+    transition: 0,5s;
+    cursor: pointer;
+   
+} 
+
+
+.cadastro input{
+
+    display:inline-block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+
+.cadastro input[type="submit"]{
+
+    background: rgba(255, 0, 0, 0.61);
+    color: white;
+    cursor: pointer;
+ 
+   
+}
+
+.cadastro input[type="submit"]:hover{
+
+    background: rgba(9, 248, 29);
+    transition: 0,5s;
+   
+} 
+
+.logo {
+
+    width: 200px;
+    height: 199px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    background-image: url(../image/logo.png);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.exit {
+
+     margin-bottom: 20px;
+     background-color: rgb(255, 255, 255);
+     color: rebeccapurple;
+
+}
+
+.total {
+
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 300px;
+    margin:auto;
+    text-align: center;
+
+}
+
+.total p {
+
+     margin: 5px 0;
+
+}
+
+.botaocarrinho {
+
+    background-color: rgba(255, 0, 0, 0.863);
+
+}
+
+.botaocarrinho a {
+
+    color: white;
+    cursor: pointer;
+}
+
+.botaopagamento a {
+    background-color: rgb(114, 216, 105)
+}
+
+.botaopagamento a {
+
+    color: white;
+    cursor: pointer;
+}
+
+
