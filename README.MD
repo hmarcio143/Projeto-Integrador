@@ -13,6 +13,16 @@ C:\xampp\htdocs
 Colar nessa pasta todo o conteúdo da pasta trabalhoPI
 No navegador, abrir uma aba e digitar: localhost
 
+Grupo 21:
+
+Marcio Henrique Alves da Costa
+Maria Virginia de Oliveira
+Rafael de Lima Mangini
+Regiane Ponciano de Brito
+Renan Tadeu Vieira Costa
+Vitor Martins Cipriano
+
+
 
 
 
